@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logoalura.png" alt="Logo de alura con la inicial da letra a">
+    </header>
+
+    <video muted autoplay loop> <source src="negro-nodos.mp4"></video>
+   
+    <main>
+        <section>
+          <textarea class="encriptador-principal" cols="44" rows="8" name="mensaje" id="mensaje" placeholder="Escriba su mensaje aquí"></textarea>
+        
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos.</h6>
+            </div>
+
+            <div class="botones">
+                <button class="btnEncriptar">Encriptar</button>
+                <button class="btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+          <textarea cols="20" rows="8" name="mensaje" id="mensaje2" ></textarea>
+          <button class="btnCopiar">Copiar</button>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
